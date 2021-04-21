@@ -1,0 +1,49 @@
+/******w***********
+    
+    Project 3 Stylesheet
+    Name: Sarah Dizon
+    Date: 21-April-2021
+    Description: Styles for Project 3
+
+******************/
+
+*{
+    font-size: 14px ;
+}
+
+
+header{
+ flex-direction: column;
+}
+
+ul{
+    flex-direction: column;
+}
+
+
+ul li{
+    flex-direction: column;
+}
+
+#footer{
+    flex-direction:column ;
+}
+
+#skills-cont{
+    margin:36px 0;
+}
+
+#skills{
+    display: flex;
+    flex-direction: column;
+}
+
+#container-skills{
+    flex-direction: column;
+    width: 100%;
+}
+
+#container-skills::before{
+    height: 1500px;
+}
+

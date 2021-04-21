@@ -1,0 +1,208 @@
+/******w***********
+    
+    Project 3 Stylesheet
+    Name: Sarah Dizon
+    Date: 21-April-2021
+    Description: Styles for Project 3
+
+******************/
+
+*{
+    margin: 0px;
+    font-size: 18px;
+}
+body{   
+      background-repeat: no-repeat;
+      background: url(images/background1.jfif) no-repeat center center/cover;  
+      background-size: 150%;
+}
+/* Header and Navigation */
+header{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background: rgb(33,30,120);
+    background: radial-gradient(circle, rgba(33,30,120,1) 8%, rgba(39,22,94,1) 47%, rgba(91,28,108,1) 100%);
+}
+
+#nav{
+    width: 100%;
+}
+
+/*Unordered Lists */
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    ul li{
+        text-decoration: none;
+        width: 20%;
+        height: 8vh;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all;
+        transition-duration: 1s;
+    }
+
+    ul li:hover{
+        background-color: blanchedalmond;
+    }
+
+    ul li:focus{
+        background-color: blanchedalmond;
+    }
+
+    ul li a{
+        text-decoration: none;
+        color: seashell;
+        font-size: 1.2rem;
+    }
+
+    ul li a:hover{
+        color: black;
+        font-size: 1.5rem;
+        transition-property: all;
+        transition-duration: 1s;
+    }
+
+    ul li a:focus{
+        color: black;
+        font-size: 1.5rem;
+        transition-property: all;
+        transition-duration: 1s;
+    }
+
+    ul li a :visited{
+        color: seashell;
+    }
+
+/* Footer */
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    background: #000;
+}
+
+    .footbox{
+        margin: 0.5rem;
+        width: 15%;
+        text-align: center;
+        color: blanchedalmond;
+    }
+
+    .footbox a{
+        color: blanchedalmond;
+        text-decoration: none;
+    }
+
+
+/*Form Design*/
+form{
+	width:700px;
+	margin:30px auto;
+	padding:10px;
+	border:3px rgb(101, 130, 226) solid;
+	border-radius:35px 35px 35px;
+	background: url(images/oip.JPG) no-repeat center center/cover; 
+}
+
+	form ol{
+		list-style: none;
+		margin: 10 auto;
+		padding: 0;
+        color:#e7c0c0;
+	}
+
+	form label
+	{
+		float:left;
+		width:220px;
+		text-align:right;
+	}
+
+    form input , textarea{
+        margin-left: 20px;
+        background: rgb(24,46,117);
+background: linear-gradient(0deg, rgba(24,46,117,0.7990546560421043) 6%, rgba(11,97,133,1) 96%);
+    
+    }
+
+	form input[type=submit]
+	{
+		margin: 50px auto ;
+	}
+
+	input:focus, select:focus, textarea:focus
+	{
+		background:rgb(12,11,57);
+        background: radial-gradient(circle, rgba(12,11,57,1) 2%, rgba(66,5,61,0.9587185215883228) 100%);
+		color:#fff;
+	}
+
+	/* 	Form Errors  */
+
+	form div{
+		margin-left: 250px;
+		padding: 0;
+	}
+
+	form .error{
+		display: none;
+		color: #ffffff;
+		font-weight: bold;
+		font-size: .8em;
+	} 
+
+    /* Submit and Clear Button */
+
+    #submit, #reset{
+        display: block;
+        background: rgb(101,142,152);
+        background: radial-gradient(circle, rgba(101,142,152,0.7710434515603116) 0%, rgba(47,132,149,1) 39%, rgba(35,91,179,0.8326681014202556) 100%);
+        color:#000;
+        border:none;
+        border-radius: 5px;
+        box-shadow: 3px 3px 3px #000;
+        font-size: 1.1em;
+        margin:3px auto;
+        height: 40px;
+        width:160px;
+        float:center;
+        height: 36px;
+        color: #333;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    
+        
+    @media (max-width: 550px){
+
+        body{   
+            background-repeat: no-repeat;
+            background: url(images/background1.jfif) no-repeat center center/cover;  
+            background-size: 500%;
+      }
+
+    }
+
+    
+
+
+      
+
+    
+
+ 
